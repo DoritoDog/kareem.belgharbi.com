@@ -225,6 +225,10 @@ function toggleNavbar() {
   }
 }
 
+function resetSkillSearch() {
+  document.getElementById('skill-search').innerHTML = '';
+}
+
 function copyToClipboard(id) {
   var copyText = document.getElementById(id);
   copyText.select();

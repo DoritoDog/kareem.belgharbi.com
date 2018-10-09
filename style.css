@@ -241,12 +241,6 @@ header {
   height: 100vh;
 }
 
-#resume {
-  width: 500px;
-  margin: auto;
-  overflow: hidden;
-}
-
 .pdf-button {
   width: 150px;
   display: block;
