@@ -114,7 +114,14 @@ window.onload = function() {
     }
   });
 
+  // Preloading icon
   $(".preload-icon").fadeOut("slow");
+
+  // Set language
+  toggleDropdown();
+  var lang = navigator.language;
+  if (lang == 'sk')
+    setLang('slovak');
 }
 
 var interval;
@@ -191,6 +198,19 @@ function setLang(language) {
     for (var i = 0; i < localized.length; i++) {
       localized[i].innerHTML = json[localized[i].getAttribute('data-key')];
     }
+
+    var code;
+    var languageLocalized;
+    if (language == 'english') {
+      code = 'us';
+      languageLocalized = 'English';
+    }
+    else if (language == 'slovak') {
+      code = 'sk';
+      languageLocalized = 'Slovenčina';
+    }
+    document.getElementById('lang-flag').src = `https://www.countryflags.io/${code}/flat/32.png`;
+    document.getElementById('lang').innerHTML = languageLocalized;
   });
 }
 
