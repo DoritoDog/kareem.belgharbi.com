@@ -124,7 +124,7 @@ header {
 
 /* Bottom navbar stacking */
 @media screen and (max-width: 800px) {
-  .bottom-navigation-bar {
+  .bottom-navigation-bar ul, .bottom-navigation-bar {
     background-color: #228B22 !important;
   }
 
@@ -239,6 +239,18 @@ header {
 
 .resume {
   height: 100vh;
+}
+
+#resume {
+  width: 500px;
+  margin: auto;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 500px) {
+  #resume {
+    width: 80%;
+  }
 }
 
 .pdf-button {
