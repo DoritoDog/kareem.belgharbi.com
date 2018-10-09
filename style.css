@@ -237,10 +237,6 @@ header {
 
 /* #region Resume */
 
-.resume {
-  height: 100vh;
-}
-
 #resume {
   width: 500px;
   margin: auto;
