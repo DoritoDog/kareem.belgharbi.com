@@ -1,0 +1,30 @@
+{
+  "Unity": {
+    "Plugins": "",
+    "Multiplayer Networking": "",
+    "C# Gameplay Scripting": "",
+    "Ethereum in Unity": "",
+    "Navigation & Pathfinding": "",
+    "HTTP": ""
+  },
+  "Ethereum": {
+    "Crowdsales and Initial Coin Offerings (ICOs)": "",
+    "Cryptocurrencies and ERC20 Tokens": "",
+    "Security": "",
+    "Mobile Wallets": "",
+    "Ethereum in C# and JavaScript": "",
+    "Coinbase API": ""
+  },
+  "Front-end": {
+    "HTML5": "",
+    "CSS": "",
+    "jQuery": "",
+    "Adobe Photoshop": ""
+  },
+  "Back-end": {
+    "PHP & MySQL": "",
+    "DigitalOcean": "",
+    "Node JS": "",
+    "CakePHP": ""
+  }
+}

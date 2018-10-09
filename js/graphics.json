@@ -1,0 +1,20 @@
+[
+  {"name": "M1 Abrams", "mesh": "Abrams.fbx", "texture": "abrams.png", "image": "Abrams.png"},
+  {"name": "Tornado", "mesh": "Tornado.fbx", "texture": "tornado.png", "image": "Airstrike.png"},
+  {"name": "Base", "mesh": "Base.fbx", "texture": "base.png", "image": "Base.png"},
+  {"name": "Barracks", "mesh": "Barracks.fbx", "texture": "barracks.png", "image": "Barracks.png"},
+  {"name": "Camp", "mesh": "Camp.fbx", "texture": "camp.png", "image": "Camp.png"},
+  {"name": "Aircraft Carrier", "mesh": "Aircraft carrier.fbx", "texture": "aircraft carrier.png", "image": "Carrier.png"},
+  {"name": "Battleship", "mesh": "Battleship.fbx", "texture": "battleship.png", "image": "Destroyer.png"},
+  {"name": "F-15", "mesh": "Fighter Plane.fbx", "texture": "F-15.png", "image": "F-15.png"},
+  {"name": "Garage", "mesh": "Garage.fbx", "texture": "garage.png", "image": "Garage.png"},
+  {"name": "Merkava", "mesh": "Heavy tank.fbx", "texture": "merkava.png", "image": "Heavy tank.png"},
+  {"name": "M109A6 Paladin", "mesh": "Howitzer.fbx", "texture": "howitzer.png", "image": "Howitzer.png"},
+  {"name": "Light Tank", "mesh": "Light tank.fbx", "texture": "light tank.png", "image": "Light tank.png"},
+  {"name": "Oil Drill", "mesh": "Oil drill.fbx", "texture": "oil drill.png", "image": "Oil drill.png"},
+  {"name": "Patrol Boat", "mesh": "Patrol craft.fbx", "texture": "patrol boat.png", "image": "Patrol boat.png"},
+  {"name": "Shipyard", "mesh": "Shipyard.fbx", "texture": "shipyard.png", "image": "Shipyard.png"},
+  {"name": "B-2 Stealth Bomber", "mesh": "Stealth plane.fbx", "texture": "B-2 stealth bomber.png", "image": "Stealth plane.png"},
+  {"name": "Submarine", "mesh": "Submarine.fbx", "texture": "submarine.png", "image": "Sub.png"},
+  {"name": "Tower", "mesh": "Tower.fbx", "texture": "tower.png", "image": "Tower.png"}
+]
