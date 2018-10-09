@@ -402,6 +402,18 @@ header {
   flex-direction: row;
 }
 
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.preload-icon {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url('img/preloader.gif') center no-repeat #fff;
+}
+
 /* #endregion */
 
 /* #region Graphics */

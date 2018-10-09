@@ -113,6 +113,8 @@ window.onload = function() {
       }
     }
   });
+
+  $(".preload-icon").fadeOut("slow");
 }
 
 var interval;
