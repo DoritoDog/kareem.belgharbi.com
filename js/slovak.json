@@ -27,6 +27,7 @@
   "ico-4": "Priamý nákup a predaj tokenov, príspevky používateľov a história transakcií.",
   "ico-5": "Noviny o kryptomenách s článkami, hľadacom pole a komentárovým systémom.",
   "ico-6": "Prehľiadávač blokov (žiadné back-end fungovanie ešte)",
+  "ico-7": "Spoločný chat (socket.io)",
   "find me on": "Nájdite ma na",
   "skills and expertise": "Zručností a znalostí",
   "plugins": "Pluginy",
