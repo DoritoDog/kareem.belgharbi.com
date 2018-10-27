@@ -118,10 +118,10 @@ window.onload = function() {
   $(".preload-icon").fadeOut("slow");
 
   // Set language
-  toggleDropdown();
+ /* toggleDropdown();
   var lang = navigator.language;
   if (lang == 'sk')
-    setLang('slovak');
+    setLang('slovak');*/
 }
 
 var interval;
