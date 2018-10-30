@@ -116,14 +116,6 @@ window.onload = function() {
 
   // Preloading icon
   $(".preload-icon").fadeOut("slow");
-
-  $.i18n().load({en: 'english.json'});
-
-  // Set language
- /* toggleDropdown();
-  var lang = navigator.language;
-  if (lang == 'sk')
-    setLang('slovak');*/
 }
 
 var interval;
