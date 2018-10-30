@@ -27,7 +27,7 @@
   "ico-4": "Buy & Transfer tokens directly, user contributions, and transaction history.",
   "ico-5": "Cryptocurrency news with articles, search, and comments system.",
   "ico-6": "Block Explorer (No back-end functionality yet)",
-  "ico-7": "Global chat using socket.io"
+  "ico-7": "Global chat using socket.io",
   "find me on": "Find me on",
   "skills and expertise": "Skills & Expertise",
   "plugins": "Plugins",
