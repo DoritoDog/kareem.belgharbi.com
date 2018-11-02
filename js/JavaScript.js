@@ -11,13 +11,7 @@ var selectedGraphicIndex = 8;
 var graphics = null;
 
 window.onload = function() {
-  if(PDFObject.supportsPDFs) {
-    var options = {
-      width: '500px',
-      height: '400px',
-    };
-    PDFObject.embed("./resume/Resume.pdf", "#resume-viewer", options);
-  }
+  setCV('en');
 
   // Email copying
   var email = document.getElementById('email');
@@ -184,6 +178,16 @@ function toggleDropdown() {
   document.getElementById('dropdown-languages').style.display = isDropdownOpen ? 'block' : 'none';
 }
 
+function setCV(lang) {
+  if(PDFObject.supportsPDFs) {
+    var options = {
+      width: '500px',
+      height: '400px',
+    };
+    PDFObject.embed(`./resume/CV_${lang}.pdf`, "#resume-viewer", options);
+  }
+}
+
 function setLang(language) {
   toggleDropdown();
 
@@ -198,10 +202,12 @@ function setLang(language) {
     if (language == 'english') {
       code = 'us';
       languageLocalized = 'English';
+      setCV('en');
     }
     else if (language == 'slovak') {
       code = 'sk';
       languageLocalized = 'Slovenčina';
+      setCV('sk');
     }
     document.getElementById('lang-flag').src = `https://www.countryflags.io/${code}/flat/32.png`;
     document.getElementById('lang').innerHTML = languageLocalized;

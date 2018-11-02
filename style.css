@@ -2,10 +2,6 @@ html, body {
   overflow-x: hidden;
 }
 
-a, h2 {
-  color: #00cc00;
-}
-
 /* #region Header */
 
 header {
