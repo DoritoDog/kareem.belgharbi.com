@@ -109,7 +109,7 @@ window.onload = function() {
   });
 
   // Preloading icon
-  $(".preload-icon").fadeOut("slow");
+  // $(".preload-icon").fadeOut("slow");
 }
 
 var interval;
